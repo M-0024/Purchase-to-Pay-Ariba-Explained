@@ -16,6 +16,14 @@ An internal document raised by a requester (business user/department) to formall
   - a **non-catalog / free-text** request (for items not in any catalog — requires more manual detail: description, specs, estimated price, vendor if known).
   - 
   - <img width="651" height="313" alt="image" src="https://github.com/user-attachments/assets/6a9aa203-b778-46f5-b2b1-355b5b5e7437" />
+  <img width="241" height="181" alt="image" src="https://github.com/user-attachments/assets/9b31ed5f-3a62-4dfb-8fa4-0b94bb9003a9" />
+  <img width="395" height="258" alt="image" src="https://github.com/user-attachments/assets/43147507-f065-4b7d-978f-4c7e0dea9f1a" />
+  
+<img width="254" height="135" alt="image" src="https://github.com/user-attachments/assets/49b24bfa-44e7-433b-8768-b54255e3f275" />
+<img width="632" height="271" alt="image" src="https://github.com/user-attachments/assets/4ea10f85-631b-4da6-83b6-547aa917e172" />
+
+
+
   youtube link: https://www.youtube.com/watch?v=6P9w40x4Ptg
 
 
