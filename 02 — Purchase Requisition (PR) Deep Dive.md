@@ -70,6 +70,22 @@ An internal document raised by a requester (business user/department) to formall
 
 ## Sample answer structure (for spoken delivery)
 
+
 1. Define it in one sentence.
 2. Walk the trigger → fields → approval → conversion sequence in order.
 3. Give one applied example: *"For example, in a Germany plant scenario, a requester raising a PR for a packaging material below reorder point would trigger an MRP auto-PR, routed to the plant buyer, checked against budget, and converted to a PO once a valid vendor/contract price exists."*
+## Advanced — Field-Level Detail (SAP/Ariba)
+
+Beyond the basic field list, this is what interviewers probe when they want to know if you've actually used a PR screen, not just read about one.
+
+- **Material Group / Commodity Code** — determines routing to the right buyer and the right approval matrix. Get this wrong and the PR sits with the wrong person for days — a favorite "what goes wrong" interview question.
+- **Account Assignment Category** — tells the system *how* to post the cost: to a cost center (K), an internal order (F), a WBS/project element (P), or an asset (A). A PR without the right account assignment category can't even be saved in SAP.
+- **Item Category** — Standard, Consignment, Subcontracting, Third-party (drop-ship), Service. This changes which fields are even required — e.g., a Service item category needs a service master or free-text service spec instead of a material number.
+- **Source of Supply** — the system checks whether a source list, outline agreement, or info record already exists for this material/vendor combination. If yes, it can auto-propose price and vendor. If no, the PR is flagged as requiring sourcing.
+- **Delivery Date vs Requested Date** — some systems distinguish "date I need it" from "date the system calculates as feasible" based on vendor lead time. Mismatches here trigger expediting requests later.
+- **Release Strategy fields** — in SAP, PR release strategies are often driven by a *combination* of value + plant + material group, not value alone. Worth knowing this isn't a single flat threshold.
+
+**Follow-up they might ask:** *"What if two fields conflict — e.g., the account assignment says cost center but the item category is a fixed asset?"*
+→ The system blocks the save. You can't have an asset item category with a plain cost-center-only account assignment without linking to an asset number — a classic PR error that gets kicked back.
+
+
