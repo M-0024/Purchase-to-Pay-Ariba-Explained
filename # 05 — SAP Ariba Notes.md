@@ -1,5 +1,5 @@
 # 05 — SAP Ariba Notes
-
+SAP Ariba is SAP’s cloud-based procurement and supply chain management platform that helps companies manage sourcing, purchasing, contracts, suppliers, and payments while connecting to a global business network. It’s widely used to streamline procurement, reduce costs, improve supplier collaboration, and ensure compliance
 ## Core Modules and Where They Sit in P2P
 
 | Module | Role in P2P |
