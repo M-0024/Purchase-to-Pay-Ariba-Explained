@@ -4,6 +4,10 @@
 
 A PO is the **external, legally binding** document sent to a vendor once a PR is approved and the vendor/price is confirmed — either from an approved sourcing event, an existing contract/catalog price, or a direct quote for low-value spend.
 
+T code ME21N Create po 
+ME22N Change Po 
+ ME23N DISPLAY PO
+
 ## PO Types
 
 | Type | Description | Typical use |
