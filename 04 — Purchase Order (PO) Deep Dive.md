@@ -7,6 +7,7 @@ A PO is the **external, legally binding** document sent to a vendor once a PR is
 T code ME21N Create po 
 ME22N Change Po 
  ME23N DISPLAY PO
+ https://www.youtube.com/watch?v=vK8lYA0pf6g
 
 ## PO Types
 
