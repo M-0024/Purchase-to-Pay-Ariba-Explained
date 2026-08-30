@@ -14,7 +14,7 @@ An internal document raised by a requester (business user/department) to formall
 - In **Ariba Buying**, the requester raises the requisition via:
   - a **catalog** request (punch-out/hosted catalog, pre-negotiated items — fastest path, least manual detail needed), or
   - a **non-catalog / free-text** request (for items not in any catalog — requires more manual detail: description, specs, estimated price, vendor if known).
-  - T code ME1N
+  -Create purchase requisition  T code ME51N
   - 
   - <img width="651" height="313" alt="image" src="https://github.com/user-attachments/assets/6a9aa203-b778-46f5-b2b1-355b5b5e7437" />
   <img width="241" height="181" alt="image" src="https://github.com/user-attachments/assets/9b31ed5f-3a62-4dfb-8fa4-0b94bb9003a9" />
