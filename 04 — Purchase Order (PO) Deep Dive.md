@@ -36,3 +36,17 @@ The PO is the anchor document for the **3-way match** (PO–GRN–Invoice). Any 
 1. Define PO and contrast with PR in one line (see file 02 for the full comparison table).
 2. Name the three PO types and when each is used.
 3. Give one applied example: *"A blanket PO makes sense for a recurring Germany-region freight vendor billed monthly, whereas a standard PO fits a one-time capital equipment purchase."*
+   ## Advanced — PO Type Nuances
+
+Beyond Standard / Blanket / Contract-referenced, these are the nuances that come up in real Ariba/SAP environments and in follow-up questions:
+
+- **Standard PO** — single delivery expected (or a few scheduled lines), fixed price and quantity known upfront.
+- **Blanket/Framework PO** (a.k.a. Contract PO in some SAP configs) — a value or quantity ceiling set for a period (e.g., "€50,000 over 12 months"), with individual **releases** drawn down against it as needed. Common for indirect services (cleaning, temp staffing, freight) where exact monthly quantity isn't known upfront.
+- **Contract-Referenced PO** — technically a Standard PO that *pulls its price and terms* from an existing outline agreement rather than the buyer keying price manually. Reduces price-entry error and is why contract compliance % is a KPI procurement teams track.
+- **Service PO** — distinct because it uses **service entry sheets (SES)** instead of a GRN. The "receipt" of a service is the requester approving the SES, which then feeds the 3-way match in place of a goods receipt. Common trip-up question: *"how does 3-way match work for services if there's no physical goods receipt?"* → SES replaces GRN in the match.
+- **Consignment PO** — vendor stock sits on your premises but isn't paid for until consumed/withdrawn; payment triggers off consumption, not delivery.
+- **Subcontracting PO** — you send raw materials to a vendor who returns a finished/semi-finished good; the PO tracks both the outbound materials and the returned value-added product.
+
+**Follow-up they might ask:** *"Why would a blanket PO be risky if not managed properly?"*
+→ Releases can be drawn down without fresh scrutiny each time — if nobody's tracking cumulative spend against the ceiling, you can breach the authorized value before anyone notices. That's why blanket POs usually have automated alerts at 80–90% consumption.
+
