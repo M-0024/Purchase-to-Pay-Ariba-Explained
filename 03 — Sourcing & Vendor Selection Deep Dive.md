@@ -53,3 +53,36 @@
 1. State when sourcing kicks in vs a direct PO.
 2. Walk the RFI/RFQ/RFP → evaluation → award sequence in order.
 3. Give one applied example distinguishing goods vs services criteria, e.g.: *"For a packaging material vendor I'd weight lead-time reliability and shelf-life compliance heavily; for an IT services vendor I'd weight SLA and resource expertise instead."*
+
+   ## Advanced — Weighted Evaluation & Bid Mechanics
+
+Move from "what factors matter" to "how they're actually weighted and evaluated" — this is the level that signals real understanding rather than a textbook list.
+
+### Weighted scorecard (common in Ariba Sourcing events)
+
+Mature procurement orgs don't just eyeball vendor quotes — they run a weighted scorecard:
+
+| Criterion | Typical weight |
+|---|---|
+| Price / Total Cost of Ownership | 40–50% |
+| Quality / compliance / certifications | 20–25% |
+| Delivery reliability / lead time | 15–20% |
+| Service/support/SLA | 10–15% |
+
+Being able to say *"it's not just lowest price — it's a weighted scorecard where price is heavy but not sole"* signals real understanding.
+
+### Bid types worth distinguishing
+
+- **Sealed bid** — all vendors submit blind, opened together; prevents undercutting mid-process.
+- **Reverse auction** — vendors see (anonymized) competing bids live and can revise downward in real time; used for highly commoditized, price-sensitive spend (e.g., raw packaging materials), not for complex services.
+- **Multi-round RFP** — shortlist after round 1, deeper technical/commercial negotiation in round 2; used for services or strategic categories.
+
+### Compliance gates (pass/fail, before scoring even starts)
+
+- Sanctions/denied-party list screening (OFAC, EU consolidated list) — an automatic disqualifier, not a scored criterion.
+- Conflict-of-interest declaration.
+- Minimum insurance/certification thresholds (e.g., ISO 22000 for a food-adjacent vendor at a company like PepsiCo) — pass/fail gate, not weighted.
+
+**Follow-up they might ask:** *"How do you handle a vendor who scores best commercially but fails a compliance gate?"*
+→ Compliance gates are pass/fail and sit *before* the scorecard — a vendor that fails one is disqualified regardless of price, because it's a legal/regulatory risk, not a commercial trade-off.
+
