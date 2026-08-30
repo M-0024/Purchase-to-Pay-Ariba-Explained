@@ -14,6 +14,10 @@ An internal document raised by a requester (business user/department) to formall
 - In **Ariba Buying**, the requester raises the requisition via:
   - a **catalog** request (punch-out/hosted catalog, pre-negotiated items — fastest path, least manual detail needed), or
   - a **non-catalog / free-text** request (for items not in any catalog — requires more manual detail: description, specs, estimated price, vendor if known).
+  - 
+  - <img width="651" height="313" alt="image" src="https://github.com/user-attachments/assets/6a9aa203-b778-46f5-b2b1-355b5b5e7437" />
+  youtube link: https://www.youtube.com/watch?v=6P9w40x4Ptg
+
 
 ## Required fields / criteria to raise a valid PR
 
